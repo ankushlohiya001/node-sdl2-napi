@@ -1,8 +1,10 @@
 {
-  "name": "node-sdl2-napi",
-  "version": "2.1.3",
-  "description": "Bindings for SDL2 in Node",
-  "main": "index.js",
+  "author": {
+    "name": "Kush lohiya"
+  },
+  "bugs": {
+    "url": "https://github.com/ankushlohiya001/node-sdl2-napi/issues"
+  },
   "dependencies": {
     "ffi-napi": "^3.0.1",
     "ref-array-napi": "^1.2.1",
@@ -13,25 +15,25 @@
     "sdl2-image-napi": "*",
     "sdl2-ttf-napi": "*"
   },
+  "description": "Bindings for SDL2 in Node",
   "devDependencies": {
     "ffi-gen": "*"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ankushlohiya001/node-sdl2-napi.git"
-  },
+  "homepage": "https://github.com/ankushlohiya001/node-sdl2-napi",
   "keywords": [
     "node",
     "sdl2",
     "binding"
   ],
-  "author": "Kush lohiya",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ankushlohiya001/node-sdl2-napi/issues"
+  "main": "index.js",
+  "name": "node-sdl2-napi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankushlohiya001/node-sdl2-napi.git"
   },
-  "homepage": "https://github.com/ankushlohiya001/node-sdl2-napi"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.1.4"
 }

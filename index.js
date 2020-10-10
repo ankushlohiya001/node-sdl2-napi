@@ -29,7 +29,7 @@ let sdl2 = {
 		return require('sdl2-ttf').class('ttf')
 	},
 	get image() {
-		return require('sdl2-image').class('image')
+		return require('sdl2-image-napi').class('image')
 	},
 }
 

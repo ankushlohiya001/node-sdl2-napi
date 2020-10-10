@@ -1,5 +1,5 @@
-##It's just node-sdl2 but with update support to Node 10+
-## thanks for zetsin, writer of node-sdl2
+### It's just node-sdl2 but with update support to Node 10+
+### thanks for zetsin, writer of node-sdl2
 # node-sdl2-napi
 Bindings for SDL2 in Node
 ## Installation
@@ -39,13 +39,6 @@ const SDL2_video = NS.require('SDL2_video')
 const SDL2_render = NS.require('SDl2_render')
 ...
 ```
-
-## Tutorials
-
-- [Test](/test/test.js) everything in node-sdl2-napi, you will get [Screenshot](#screenshot) shown below.
-
-## Screenshot
-![Screenshot](/test/screenshot.png)
 
 ## API References
 
