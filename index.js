@@ -26,7 +26,7 @@ let sdl2 = {
 		return require('./lib/keyboard')
 	},
 	get font() {
-		return require('sdl2-ttf').class('ttf')
+		return require('sdl2-ttf-napi').class('ttf')
 	},
 	get image() {
 		return require('sdl2-image-napi').class('image')
